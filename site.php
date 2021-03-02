@@ -7,7 +7,9 @@
   <body>
   
     <?php 
-        echo("Hello World");   
+        echo("Hello World");
+        
+        echo "<h1>Header one</h1>";
     ?>
 
 
