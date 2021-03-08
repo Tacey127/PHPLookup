@@ -21,10 +21,18 @@
         }
 
         function passingvalue($value)
-        {echo $value;}
+        {
+          echo $value;
+        }
+
+        function returnANumber()
+        {
+          return 1;
+        }
 
         sayHi();
         passingvalue("aValue");
+        echo(returnANumber());
 
         echo $_GET["name"];
 
