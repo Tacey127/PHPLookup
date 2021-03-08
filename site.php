@@ -15,6 +15,16 @@
     <br>
   
     <?php 
+        //functions
+        function sayHi(){
+          echo "hi";
+        }
+
+        function passingvalue($value)
+        {echo $value;}
+
+        sayHi();
+        passingvalue("aValue");
 
         echo $_GET["name"];
 
@@ -48,6 +58,10 @@
         $listofthings = array("a", "bc", "d");
         $listofthingsmix = array(1, 1.5, "a", true);
 
+        // pairs
+        $rules = array("that"=>"this", "these"=>"those");
+        echo $rules["that"];
+       // echo count ($rules);
     ?>
 
 
