@@ -43,6 +43,11 @@
         //numbers
         $aNumber++;
 
+        //arrays
+        $listofthingsinit = array();
+        $listofthings = array("a", "bc", "d");
+        $listofthingsmix = array(1, 1.5, "a", true);
+
     ?>
 
 
