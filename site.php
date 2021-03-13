@@ -70,6 +70,19 @@
         $rules = array("that"=>"this", "these"=>"those");
         echo $rules["that"];
        // echo count ($rules);
+
+       //if else
+       $aBool = true;
+       if($aBool)
+       {
+         echo $aBool;
+       } 
+       else
+       {
+         echo "nothing";
+       }
+
+
     ?>
 
 
