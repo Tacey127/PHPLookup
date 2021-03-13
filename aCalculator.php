@@ -20,28 +20,30 @@
         $num2 = $_POST["num2"];
         $op = $_POST["op"];
 
-        if($op == "+")
+        switch($op)
         {
+          case "+":
             echo $num1 + $num2;
-        }
-        else if($op == "-")
-        {
-            echo $num1 - $num2;
-        }
-        else if($op == "/")
-        {
+            
+            break;
+          case "-":
+              
+            echo $num1 - $num2; 
+            break;
+
+          case "*":
+            echo $num1 * $num2;      
+          break;
+
+          case "/":        
             echo $num1 / $num2;
-        }
-        else if($op == "*")
-        {
-            echo $num1 - $num2;
-        }
-        else
-        {
-            echo "invalid operator";
-        }
+          break;
 
-
+          default:
+            
+          echo "invalid operator";
+            
+          }
     ?>
 
 
