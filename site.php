@@ -30,6 +30,14 @@
           return 1;
         }
 
+        function whileLoop()
+        {
+          while(false)
+          {
+            echo("looks like c <br>");
+          }
+        }
+
         sayHi();
         passingvalue("aValue");
         echo(returnANumber());
