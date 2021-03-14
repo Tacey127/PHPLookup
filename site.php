@@ -38,6 +38,14 @@
           }
         }
 
+        function forLoop()
+        {
+          for($i = 0; $i < 1; $i++)
+          {
+            echo("still looks like c <br>");
+          }
+        }
+
         sayHi();
         passingvalue("aValue");
         echo(returnANumber());
